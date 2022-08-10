@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is laucnhed]]>
+    </line>
+    <line>
+      <![CDATA[Window is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to application]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Register button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Radio button]]>
+    </line>
+    <line>
+      <![CDATA[Succesfully entered firstName]]>
+    </line>
+    <line>
+      <![CDATA[Succesfully entered lastName]]>
+    </line>
+    <line>
+      <![CDATA[Succesfully entered Email]]>
+    </line>
+    <line>
+      <![CDATA[Succesfully entered Password]]>
+    </line>
+    <line>
+      <![CDATA[Succesfully entered ConfirmPassword]]>
+    </line>
+    <line>
+      <![CDATA[Succesfully Logged in to the application]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Quitted the browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6406" started-at="2022-08-10T10:28:38 IST" finished-at="2022-08-10T10:28:44 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6406" started-at="2022-08-10T10:28:38 IST" finished-at="2022-08-10T10:28:44 IST">
+      <class name="register.TC_DWS_03_Test">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:register.TC_DWS_03_Test@646007f4]" name="launchBrowser" is-config="true" duration-ms="5467" started-at="2022-08-10T10:28:32 IST" finished-at="2022-08-10T10:28:38 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is laucnhed]]>
+            </line>
+            <line>
+              <![CDATA[Window is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="NavigatingToApplication()[pri:0, instance:register.TC_DWS_03_Test@646007f4]" name="NavigatingToApplication" is-config="true" duration-ms="3575" started-at="2022-08-10T10:28:38 IST" finished-at="2022-08-10T10:28:42 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NavigatingToApplication -->
+        <test-method status="PASS" signature="Validate_Register_invalid_credentials()[pri:0, instance:register.TC_DWS_03_Test@646007f4]" name="Validate_Register_invalid_credentials" duration-ms="2750" started-at="2022-08-10T10:28:42 IST" finished-at="2022-08-10T10:28:44 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Register button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Radio button]]>
+            </line>
+            <line>
+              <![CDATA[Succesfully entered firstName]]>
+            </line>
+            <line>
+              <![CDATA[Succesfully entered lastName]]>
+            </line>
+            <line>
+              <![CDATA[Succesfully entered Email]]>
+            </line>
+            <line>
+              <![CDATA[Succesfully entered Password]]>
+            </line>
+            <line>
+              <![CDATA[Succesfully entered ConfirmPassword]]>
+            </line>
+            <line>
+              <![CDATA[Succesfully Logged in to the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_Register_invalid_credentials -->
+        <test-method status="PASS" signature="logoutOperation(org.testng.ITestResult)[pri:0, instance:register.TC_DWS_03_Test@646007f4]" name="logoutOperation" is-config="true" duration-ms="6" started-at="2022-08-10T10:28:44 IST" finished-at="2022-08-10T10:28:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_Register_invalid_credentials status=SUCCESS method=TC_DWS_03_Test.Validate_Register_invalid_credentials()[pri:0, instance:register.TC_DWS_03_Test@646007f4] output=Clicked on Register button]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method status="PASS" signature="tearDownTheBrowser()[pri:0, instance:register.TC_DWS_03_Test@646007f4]" name="tearDownTheBrowser" is-config="true" duration-ms="901" started-at="2022-08-10T10:28:44 IST" finished-at="2022-08-10T10:28:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Quitted the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownTheBrowser -->
+      </class> <!-- register.TC_DWS_03_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
